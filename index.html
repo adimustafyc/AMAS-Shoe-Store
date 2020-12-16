@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Prodavnica Obuće "AMAS"</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <header id="header">
+          <a href="index.html">
+            <h1 id="title">
+              <span
+                style="color: red; text-shadow: 0 0 3px white, 0 0 5px white"
+                >A</span
+              >
+              <span
+                style="
+                  color: rgb(49, 49, 49);
+                  text-shadow: 0 0 3px white, 0 0 5px white;
+                "
+                >M</span
+              >
+              <span
+                style="color: red; text-shadow: 0 0 3px white, 0 0 5px white"
+                >A</span
+              >
+              <span
+                style="
+                  color: rgb(49, 49, 49);
+                  text-shadow: 0 0 3px white, 0 0 5px white;
+                "
+                >S</span
+              >
+            </h1>
+          </a>
+          <nav id="nav-bar">
+            <ul>
+              <li>
+                <a href="adidas.html#adidaspatike" id="adidas">ADIDAS</a>
+              </li>
+              <li>
+                <a href="nike.html#nikepatike" id="nike">NIKE</a>
+              </li>
+              <li>
+                <a href="reebok.html#reebokpatike" id="reebok">REEBOK</a>
+              </li>
+              <li>
+                <a
+                  href="index.html#naruci-ovdje"
+                  id="naruci"
+                  name="naruci-ovdje"
+                  >NARUČI</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <main>
+        <section>
+          <div class="onama">
+            <h2 id="onama">O NAMA</h2>
+          </div>
+          <p class="loremipsum">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            condimentum ante dictum lectus tincidunt interdum. Nunc ac finibus
+            elit. Sed nec gravida felis. Sed nec arcu varius massa eleifend
+            consequat. Vivamus quis cursus turpis. Integer egestas imperdiet
+            arcu quis molestie. Integer pellentesque, enim in laoreet pretium,
+            nibh elit dapibus massa, eu euismod nunc metus a elit. Quisque
+            maximus tortor ut tellus posuere placerat. Maecenas quis purus
+            tincidunt, interdum mi ut, cursus urna. Cras tempor ipsum mattis,
+            aliquam risus at, pulvinar ante. Quisque sit amet nulla congue
+            libero venenatis pharetra. Nulla facilisi. Donec ultrices risus nec
+            finibus maximus. Nam vel iaculis justo. Curabitur bibendum felis ac
+            est luctus mollis id ac felis. Vestibulum vulputate eu elit commodo
+            molestie. Cras fermentum porta quam eget tempor. Morbi blandit id
+            libero quis lobortis. Praesent sed iaculis nisl. In a dapibus felis,
+            at aliquet purus. Integer a diam risus. Nunc nec vulputate enim.
+            Pellentesque nec augue varius, mattis nibh et, pretium enim. Donec
+            non ultricies magna. Sed eu felis turpis. Suspendisse ut orci quis
+            justo varius sodales sit amet sit amet risus. Nunc leo massa,
+            lacinia ut tempus in, imperdiet egestas diam.
+          </p>
+        </section>
+        <aside id="naruci-ovdje">
+          <div class="form-title">
+            <h2>NARUDŽBA</h2>
+          </div>
+          <div class="form-div">
+            <form class="order" method="POST">
+              <input
+                type="text"
+                id="customer-name"
+                required
+                placeholder="Vaše ime"
+              />
+              <input
+                type="text"
+                id="customer-last-name"
+                required
+                placeholder="Vaše prezime"
+              />
+              <input
+                type="email"
+                id="customer-email"
+                required
+                placeholder="email"
+              />
+              <input
+                type="text"
+                id="customer-address"
+                required
+                placeholder="Vaša adresa"
+              />
+              <select id="shoe-model" required placeholder="Model patika">
+                <option>Adidas COURTMASTER</option>
+                <option>Adidas Predator</option>
+                <option>Adidas Pro Bounce</option>
+                <option>Adidas PureBOOST</option>
+                <option>Adidas Solar BOOST</option>
+                <option>Adidas Solar Drive</option>
+                <option>Adidas SUPERNOVA</option>
+                <option>Adidas VS HOOPS</option>
+                <option>Adidas X GHOSTED</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+                <option>Lorem ipsum</option>
+              </select>
+              <input
+                type="number"
+                id="shoe-size"
+                name="shoe-size"
+                min="38"
+                max="44"
+                required
+                placeholder="Velicina patika"
+              />
+              <div class="dugme">
+                <input type="submit" value="Naruči" id="submit-button" />
+              </div>
+            </form>
+          </div>
+        </aside>
+        <footer></footer>
+      </main>
+    </div>
+  </body>
+</html>
